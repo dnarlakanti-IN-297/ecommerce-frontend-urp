@@ -32,7 +32,7 @@ jobs:
       - name: Checkout infra repo
         uses: cloudbees-io/checkout@v1
         with:
-          repository: dnarlakanti-IN-297/ecommerce-infra
+          repository: dnarlakanti-IN-297/ecommerce-infra-urp
           ref: main
 
       - name: Configure kubectl
